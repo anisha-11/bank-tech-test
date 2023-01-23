@@ -15,9 +15,19 @@ it("makes a deposit of 2000 on date 13-01-2023", () => {
 });
 
 it("makes a withdrawal of 500 on date 14-01-2023", () => {
-  const deposit = new Transaction("14-01-2023", 500, "debit");
-  expect(deposit.date).toBe("14-01-2023");
-  expect(deposit.amount).toBe(500);
-  expect(deposit.title).toBe("debit");
+  const withdrawal = new Transaction("14-01-2023", 500, "debit");
+  expect(withdrawal.date).toBe("14-01-2023");
+  expect(withdrawal.amount).toBe(500);
+  expect(withdrawal.title).toBe("debit");
+});
+
+it("knows the difference between deposit & withdrawal", () => {
+  const deposit = new Transaction("10-01-2023", 1000, "credit") 
+  expect(deposit.transaction()).toBe(1000)
+});
+
+it("knows the difference between deposit & withdrawal", () => {
+  const withdrawal = new Transaction("14-01-2023", 500, "debit") 
+  expect(withdrawal.transaction()).toBe(-500)
 });
 
