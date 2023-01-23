@@ -5,8 +5,8 @@ class Transaction {
     this.title = title;
   }
 
-  value() {
-    if (this.type === "credit") {
+  transaction() {
+    if (this.title === "credit") {
       return +this.amount;
     } else {
       return -this.amount;
