@@ -1,6 +1,6 @@
 # bank-tech-test
 
-## Install:
+## Install
 1. Clone this repository by running the below in your terminal:
 ```bash
 git clone https://github.com/anisha-11/bank-tech-test.git
@@ -12,7 +12,7 @@ cd bank-tech-test
 npm install
 ```
 
-## Testing:
+## Testing
 You can run the tests by typing the below in the terminal:
 ```bash
 jest
@@ -23,7 +23,7 @@ You can run the tests to show coverage by doing the below:
 jest --coverage
 ```
 
-## Node:
+## Node
 You can run it in node by doing the following steps:
 
 <img width="281" alt="Screenshot 2023-01-24 at 22 50 56" src="https://user-images.githubusercontent.com/70213220/214441711-b0f834e8-a6ec-41de-b302-d468df86dfdd.png">
