@@ -1,14 +1,34 @@
 class Bank {
   constructor() {
     this.transactions = "";
+    this.balance = 0 
   }
 
-  add(transaction) {
-    this.transactions = "\n10/1/23 || 1000.00 || || 1000.00";
+  deposit(amount) {
+    this.balance += amount
+  }
+
+  withdrawal(amount) {
+    this.balance -= amount
+  }
+
+  add(method, amount, date) {
+    
+    if (method === "credit") {
+      this.balance += amount
+      this.transactions += `\n${date} || ${amount} || || ${this.balance}`;
+    } else {
+      this.balance -= amount
+      this.transactions += `\n${date} || ${amount} || || ${this.balance}`;
+    };
   }
 
   statement() {
     return "date || credit || debit || balance" + this.transactions;
+  }
+
+  printBalance() {
+    return this.balance
   }
 };
 
