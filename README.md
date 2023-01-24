@@ -18,10 +18,15 @@ You can run the tests by typing the below in the terminal:
 jest
 ```
 
-You can run the tests to show coverage by doing the below
+You can run the tests to show coverage by doing the below:
 ```bash
 jest --coverage
 ```
+
+## Node:
+You can run it in node by doing the following steps:
+Screenshot 2023-01-24 at 22.50.56.png
+If it looks like the above, with some outputs of 'undefined', don't worry as you are on the right track.
 
 
 # Approach 
