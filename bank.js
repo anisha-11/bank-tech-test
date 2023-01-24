@@ -24,7 +24,8 @@ class Bank {
   }
 
   statement() {
-    console.log("date || credit || debit || balance" + this.transactions);
+    return ("date || credit || debit || balance" + this.transactions);
+    // console.log
   }
 
   printBalance() {
