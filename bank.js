@@ -4,13 +4,13 @@ class Bank {
     this.balance = 0 
   }
 
-  deposit(amount) {
-    this.balance += amount
-  }
+  // deposit(amount) {
+  //   this.balance += amount
+  // }
 
-  withdrawal(amount) {
-    this.balance -= amount
-  }
+  // withdrawal(amount) {
+  //   this.balance -= amount
+  // }
 
   add(method, amount, date) {
     
@@ -28,9 +28,9 @@ class Bank {
   
   }
 
-  printBalance() {
-    return this.balance
-  }
+  // printBalance() {
+  //   return this.balance
+  // }
 };
 
 module.exports = Bank;

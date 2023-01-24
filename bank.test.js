@@ -5,7 +5,7 @@ it("returns inital empty statement", () => {
   const logSpy = jest.spyOn(global.console, 'log');
   bank.statement()
   expect(logSpy).toHaveBeenCalledWith("date || credit || debit || balance");
-  logSpy.mockRestore();
+  logSpy.mockRestore()
 });
 
 it("tracks 1st transaction of 1000 on 10/1/23", () => {
