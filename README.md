@@ -25,7 +25,6 @@ jest --coverage
 
 ## Node:
 You can run it in node by doing the following steps:
-If it looks like the below, with some outputs of 'undefined', don't worry as you are on the right track.
 
 <img width="281" alt="Screenshot 2023-01-24 at 22 50 56" src="https://user-images.githubusercontent.com/70213220/214441711-b0f834e8-a6ec-41de-b302-d468df86dfdd.png">
 
