@@ -5,7 +5,7 @@ class Transaction {
     this.title = title
   }
 
-  transaction () {
+  printTransaction () {
     if (this.title === 'credit') {
       return +this.amount
     } else {

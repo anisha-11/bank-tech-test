@@ -22,7 +22,7 @@ class Bank {
     };
   }
 
-  statement () {
+  printStatement () {
     console.log('date || credit || debit || balance' + this.transactions)
   }
   // printBalance() {
