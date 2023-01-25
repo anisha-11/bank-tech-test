@@ -24,11 +24,11 @@ it('makes a withdrawal of 500 on date 14-01-2023', () => {
 describe('knows difference between deposit & withdrawal', () => {
   it('deposits', () => {
     const deposit = new Transaction('10-01-2023', 1000, 'credit')
-    expect(deposit.transaction()).toBe(1000)
+    expect(deposit.printTransaction()).toBe(1000)
   })
 
   it('withdraws', () => {
     const withdrawal = new Transaction('14-01-2023', 500, 'debit')
-    expect(withdrawal.transaction()).toBe(-500)
+    expect(withdrawal.printTransaction()).toBe(-500)
   })
 })
